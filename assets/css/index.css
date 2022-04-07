@@ -1,0 +1,120 @@
+
+body{
+    background-color: hsl(31, 88%, 13%)
+
+}
+
+#principal{  
+    background-image: url(https://www.dsigno.es/blog/wp-content/uploads/2018/09/desfile-de-moda.jpg);
+    width: 500px;
+    height: 300px;
+}
+
+ #container{
+    /*width: 70%;*/
+    width: 1570px;
+    margin: opx auto;
+    
+}
+
+header{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+nav{  
+    background: #000000;
+    height: 50px;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+nav ul li{
+    color: white;
+    float: left;
+    margin: 10px;
+    line-height: 30px;
+    color: white;
+}
+
+article img{  
+   margin: 5px;
+}
+
+h1{  
+    color: white;
+    margin: 1px;
+    
+}
+
+p h2{  
+    margin-right: 200px;
+}
+
+h2{  
+    color: white;
+    text-align: center;
+}
+
+h3{  
+    color: white;
+    text-align: left;
+}
+
+h4{  
+    color: white;
+    text-align: left;
+}
+
+p{  
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+
+.clearfix{ 
+    clear: both;
+}
+
+#content{  
+    float:left;
+    width:100%;
+    min-height: 500px;
+    background: black;
+}
+
+.article{  
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.article h2{  
+    font-size: 25px;
+    color: white;
+}
+
+aside{  
+    float:left;
+    width: calc(20%-20px);
+    background: black;
+    min-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+footer{  
+    background: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height:150px;
+    line-height: 50px;
+}
