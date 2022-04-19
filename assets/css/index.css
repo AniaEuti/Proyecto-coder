@@ -1,120 +1,169 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: silver;
+}
 
-body{
-    background-color: hsl(31, 88%, 13%)
+#container {
+  /*width: 70%;*/
+  width: 1570px;
+  margin: opx auto;
+}
+
+header {
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.ancho {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.logo a {
+height: 30%;
+  text-align: center;
 
 }
 
-#principal{  
-    background-image: url(https://www.dsigno.es/blog/wp-content/uploads/2018/09/desfile-de-moda.jpg);
-    width: 500px;
-    height: 300px;
+div .clearfix {
+  height: 1px;
+
 }
 
- #container{
-    /*width: 70%;*/
-    width: 1570px;
-    margin: opx auto;
-    
+nav {
+  background: #000000;
+  height: 50px;
+  border-bottom: 1px solid black;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 24px;
 }
 
-header{
-    background-color: black;
-    height: 200px;
-    width: 100%;
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  float: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding-left: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #444;
+}
+
+article img {
+  margin: 5px;
+}
+
+h1 {
+  color: white;
+  margin: 1px;
+}
+
+p h2 {
+  margin-right: 200px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  height: 50%;
+  width: 50%;
+}
+
+h4 {
+  color: white;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+p {
+  margin-top: 2px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 2px;
+}
+
+section .page-info p h3{
     text-align: center;
-    color: white;
+    padding: 30%;
+    margin: auto;
+    height: 10cm;
+    position: absolute;
 }
 
-nav{  
-    background: #000000;
-    height: 50px;
-    border-bottom: 1px solid black;
-    color: white;
+section article h2 .marcas a{
+
 }
 
-nav ul li{
-    color: white;
-    float: left;
-    margin: 10px;
-    line-height: 30px;
-    color: white;
+section article h2 .modelos a{
+border-radius: 50%;
 }
 
-article img{  
-   margin: 5px;
+.clearfix {
+  clear: both;
 }
 
-h1{  
-    color: white;
-    margin: 1px;
-    
+#content {
+  float: left;
+  width: 100%;
+  min-height: 500px;
+  background: black;
 }
 
-p h2{  
-    margin-right: 200px;
+.article {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
 }
 
-h2{  
-    color: white;
-    text-align: center;
+.article h2 {
+  font-size: 25px;
+  color: #ffffff;
 }
 
-h3{  
-    color: white;
-    text-align: left;
+aside form {
+  float: right;
+  width: calc(20%-20px);
+  background: black;
+  min-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  color: white;
+  box-sizing: border-box;
 }
 
-h4{  
-    color: white;
-    text-align: left;
-}
-
-p{  
-    margin-top: 2px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 2px;
-}
-
-
-.clearfix{ 
-    clear: both;
-}
-
-#content{  
-    float:left;
-    width:100%;
-    min-height: 500px;
-    background: black;
-}
-
-.article{  
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #eee;
-}
-
-.article h2{  
-    font-size: 25px;
-    color: white;
-}
-
-aside{  
-    float:left;
-    width: calc(20%-20px);
-    background: black;
-    min-height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    color: white;
-}
-
-footer{  
-    background: black;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    height:150px;
-    line-height: 50px;
+footer {
+  background: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 150px;
+  line-height: 50px;
+  font-family: 'Raleway', sans-serif;
 }
